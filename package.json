@@ -1,0 +1,37 @@
+{
+  "name": "maddy-box-api",
+  "version": "1.0.0",
+  "description": "Media scrapper api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bluebird": "^3.5.1",
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "cachios": "^1.0.7",
+    "cheerio": "^1.0.0-rc.2",
+    "core-js": "^2.4.1",
+    "express": "^4.16.2",
+    "idope-search": "^1.0.0",
+    "moment": "^2.19.4",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
+    "puppeteer": "^0.13.0",
+    "rxjs": "^5.1.0",
+    "socket.io": "^2.0.4",
+    "torrent-stream": "^1.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "popcorn"
+  ],
+  "author": "atifkhan161",
+  "license": "ISC"
+}
